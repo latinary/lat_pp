@@ -1,8 +1,5 @@
 #include <iostream>
 #include <cstdio>
-#pragma GCC optimize("Ofast")
-#pragma GCC target("fma,sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,tune=native")
-#pragma GCC optimize("unroll-loops")
  
 using namespace std;
  
@@ -23,7 +20,7 @@ using namespace std;
 #define signati signed
 #define nonsignatum unsigned
 #define numerus int
- 
+
 // keywords
  
 #define classis class
