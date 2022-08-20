@@ -1,2 +1,3 @@
-# lat_pp
-lat++ language
+# lat++
+latin c++
+very cool
