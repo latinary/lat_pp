@@ -10,7 +10,6 @@ using namespace std;
 
 namespace vexillum
 {
-    using namespace std;
     void dicunt(string x)
     {
         cout << x << endl;
