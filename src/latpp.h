@@ -8,7 +8,7 @@ using namespace std;
 
 #define filum string;
 
-namespace vexillum
+namespace vxl
 {
     void dicunt(string x)
     {
