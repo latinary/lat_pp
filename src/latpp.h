@@ -92,13 +92,13 @@ namespace vexillum
     {
         cout << x << endl;
     }
-    inacie numerus ut_numerus()
+inacie numerus ut_numerus()
     {
         numerus t = 0;
         littera c = getchar();
-        bool neg = false;
+        bool neg = falsus;
         si(c == '-')
-            neg = true;
+            neg = verum;
         aliud
             t += c - '0';
         dum((c = getchar()) != '\n' && c != ' ' && c != EOF)
