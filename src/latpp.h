@@ -20,6 +20,7 @@ using namespace std;
 #define signati signed
 #define nonsignatum unsigned
 #define numerus int
+#define littera char
 
 // keywords
  
@@ -87,8 +88,29 @@ using namespace std;
  
 namespace vexillum
 {
-    void dicunt(auto x)
+    inanis dicunt(auto x)
     {
         cout << x << endl;
+    }
+    inacie numerus ut_numerus()
+    {
+        numerus t = 0;
+        littera c = getchar();
+        bool neg = false;
+        si(c == '-')
+            neg = true;
+        aliud
+            t += c - '0';
+        dum((c = getchar()) != '\n' && c != ' ' && c != EOF)
+        {
+            t = t * 10 + c - '0';
+        }
+        reditus(neg ? -t : t);
+    }
+    inacie filum ut_filum()
+    {
+        filum s;
+        cin >> s;
+        reditus s;
     }
 }
