@@ -8,8 +8,10 @@
 per spatio_nominali std;
 per spatio_nominali vexillum;
  
-int main()
+numerus dominus()
 {
     numerus x = 5;
     vexillum::dicunt(x);
+
+    reditus 0;
 }
