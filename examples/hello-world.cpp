@@ -1,6 +1,7 @@
 #include "./latpp.h";
 
-int main()
+numero dominus()
 {
     vexillum::dicunt("Hello, world!"); // prints "Hello, world!" to the console
+    reditus 0;
 }
